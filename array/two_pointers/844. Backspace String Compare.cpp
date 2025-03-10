@@ -1,6 +1,10 @@
 //
 // Created by Veritas on 3/9/25.
 //
+#include <string>
+#include <iostream>
+using namespace std;
+
 class Solution {
 public:
     bool backspaceCompare(string s, string t) {
@@ -22,3 +26,9 @@ public:
         return c.substr(0,slowPointer);
     }
 };
+
+int main(){
+    cout << "C++ version: " << __cplusplus << endl;
+
+
+}
