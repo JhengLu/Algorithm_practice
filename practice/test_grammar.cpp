@@ -10,5 +10,7 @@ int main(){
     for (auto it = test.begin(); it != test.end(); it ++){
         cout << *it << endl;
     }
+    int a;
+    cout << a + 10 <<endl;
     return 0;
 }
